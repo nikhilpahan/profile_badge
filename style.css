@@ -1,10 +1,14 @@
 body {
-    background-color: white;
+    background-image: url(./milad-fakurian-GJKx5lhwU3M-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
 
 .badge {
     width: 260px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: 15px;
     margin: 100px auto;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
@@ -18,4 +22,15 @@ body {
 .badge img{
     width: 100px;
     border-radius: 100px;
+}
+
+.badge a {
+    display: inline-block;
+    color: rgb(210, 47, 47);
+    margin: 10px;
+    text-decoration: none;
+}
+
+#linkedin {
+    color: rgb(40, 39, 39);
 }
